@@ -1,0 +1,151 @@
+* {
+    background-color: darksalmon;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    width: 170px;
+    height: 70px;
+    background-color: white;
+}
+
+h1 {
+    background-color: white;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.voorproefje {
+    width: 150px;
+    height: 120px;
+    align-self: center;
+}
+
+nav {
+    border-radius: 2px;
+    transition: transform .5s;
+}
+
+nav:hover{
+    transform: translate(3px, 5px);
+}
+
+a { display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    border-radius: 2px;
+}
+
+.navigatie {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    content: normal;
+    padding: 20px;
+    margin: 1em;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+}
+
+h2 {
+    background-color: darkolivegreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h3 {
+    background-color: darkolivegreen;
+    text-align: center;
+    text-align-last: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: small;
+}
+
+ul {
+    text-align: left;
+    list-style-type: square;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-size: small;
+    font-weight: lighter;
+}
+
+article {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 1em;
+}
+
+img {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 200px;
+    height: 170px;
+}
+
+.wapen {
+    background-color: white;
+    width:100px;
+    height: 150px;
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+}
+
+.icoon {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
